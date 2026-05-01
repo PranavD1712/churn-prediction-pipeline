@@ -25,6 +25,9 @@ jobs:
     - name: Generate training data
       run: python src/ingestion/data_simulator.py
 
+    - name: Run feature engineering
+      run: python src/processing/feature_engineering.py
+
     - name: Train model
       run: python src/training/train_model.py
 
