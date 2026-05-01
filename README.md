@@ -38,31 +38,32 @@ A telecom company loses revenue daily to customer churn. This system:
 
 ## 📁 Project Structure
 
+```
 churn-prediction-pipeline/
 ├── src/
 │   ├── ingestion/
-│   │   └── data_simulator.py        # Customer data generator
+│   │   └── data_simulator.py
 │   ├── processing/
-│   │   └── feature_engineering.py  # Spark feature engineering
+│   │   └── feature_engineering.py
 │   ├── training/
-│   │   └── train_model.py           # TensorFlow model training
+│   │   └── train_model.py
 │   └── serving/
-│       └── app.py                   # FastAPI prediction endpoint
+│       └── app.py
 ├── pipelines/
 │   └── airflow_dags/
-│       └── churn_pipeline_dag.py    # Airflow DAG
+│       └── churn_pipeline_dag.py
 ├── tests/
-│   └── test_api.py                  # Pytest unit tests
+│   └── test_api.py
 ├── models/
-│   ├── churn_model.keras            # Trained TF model
-│   ├── scaler.pkl                   # Feature scaler
-│   └── feature_cols.pkl             # Feature columns
+│   ├── churn_model.keras
+│   ├── scaler.pkl
+│   └── feature_cols.pkl
 ├── .github/
 │   └── workflows/
-│       └── ci.yml                   # GitHub Actions CI/CD
+│       └── ci.yml
+├── requirements.txt
 └── README.md
-
----
+```
 
 ## 🔄 Pipeline Architecture
 Daily Trigger (Airflow)
