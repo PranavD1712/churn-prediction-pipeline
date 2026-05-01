@@ -165,6 +165,9 @@ pytest tests/ -v
 
 ## 👤 Author
 
-**Pranav Deshmukh** — Data Science & ML
-📧 Connect on [LinkedIn](https://www.linkedin.com/in/pranav-deshmukh2004)
-⭐ Star this repo if you found it helpful!
+**Pranav Deshmukh**  
+*Data Science & Machine Learning*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pranav%20Deshmukh-blue?logo=linkedin)](https://www.linkedin.com/in/your-linkedin-username/)
+
+⭐ If you found this project helpful, please consider starring the repository!
